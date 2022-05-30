@@ -20,6 +20,7 @@ public class ProductManagement : AbsProduct, IProduct
 
     public void Display()
     {
+        
         foreach(Product p in this.products)
         {
             if (p is Product)
